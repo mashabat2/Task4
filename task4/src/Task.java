@@ -47,6 +47,62 @@ public class Task {
         }catch (WrongCredentialsException | TooManyLoginAttemptsException | IOException e){
             System.out.println(e.getMessage());
         }
+        try {
+            System.out.println(man.getPerson("mashabat2@mail.ru", "qwerty"));
+        }catch (WrongCredentialsException | TooManyLoginAttemptsException | IOException e){
+            System.out.println(e.getMessage());
+        }
+        try {
+            System.out.println(man.getPerson("mashabat2@mail.ru", "qwerty"));
+        }catch (WrongCredentialsException | TooManyLoginAttemptsException | IOException e){
+            System.out.println(e.getMessage());
+        }
+        try {
+            System.out.println(man.getPerson("mashabat2@mail.ru", "qwerty"));
+        }catch (WrongCredentialsException | TooManyLoginAttemptsException | IOException e){
+            System.out.println(e.getMessage());
+        }
+        try {
+            System.out.println(man.getPerson("mashabat2@mail.ru", "qwerty"));
+        }catch (WrongCredentialsException | TooManyLoginAttemptsException | IOException e){
+            System.out.println(e.getMessage());
+        }
+        try {
+            System.out.println(man.getPerson("mashabat2@mail.ru", "qwerty"));
+        }catch (WrongCredentialsException | TooManyLoginAttemptsException | IOException e){
+            System.out.println(e.getMessage());
+        }
+
+        try{
+            System.out.println(man.getPerson("mbat2@mail.ru", "qwerty"));
+        }catch (WrongCredentialsException | TooManyLoginAttemptsException | IOException e){
+            System.out.println(e.getMessage());
+        }
+        try{
+            System.out.println(man.getPerson("mbat2@mail.ru", "qwerty"));
+        }catch (WrongCredentialsException | TooManyLoginAttemptsException | IOException e){
+            System.out.println(e.getMessage());
+        }
+        try{
+            System.out.println(man.getPerson("mbat@mail.ru", "qwerty"));
+        }catch (WrongCredentialsException | TooManyLoginAttemptsException | IOException e){
+            System.out.println(e.getMessage());
+        }
+        try{
+            System.out.println(man.getPerson("mbat2@mail.ru", "qwerty"));
+        }catch (WrongCredentialsException | TooManyLoginAttemptsException | IOException e){
+            System.out.println(e.getMessage());
+        }
+        try{
+            System.out.println(man.getPerson("mbat2@mail.ru", "qwerty"));
+        }catch (WrongCredentialsException | TooManyLoginAttemptsException | IOException e){
+            System.out.println(e.getMessage());
+        }
+        try{
+            System.out.println(man.getPerson("mbat2@mail.ru", "qwerty"));
+        }catch (WrongCredentialsException | TooManyLoginAttemptsException | IOException e){
+            System.out.println(e.getMessage());
+        }
         try{
             System.out.println(man.getPerson("mbat2@mail.ru", "qwerty"));
         }catch (WrongCredentialsException | TooManyLoginAttemptsException | IOException e){

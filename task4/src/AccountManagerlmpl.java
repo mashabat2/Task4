@@ -59,6 +59,10 @@ class AccountManagerImpl implements MailAccountManager{
         }
     }
 
+    /*
+    Проверка на наличие аккаунта.
+    have принимает значения false/true
+     */
     @Override
     public boolean hasAccount(String email) throws IOException {
         boolean have = false;
@@ -73,6 +77,9 @@ class AccountManagerImpl implements MailAccountManager{
         return have;
     }
 
+    /*
+        Попытка входа.
+     */
     @Override
     public Person getPerson(String email, String password) throws TooManyLoginAttemptsException, IOException, WrongCredentialsException {
         Person man = null;
